@@ -19,11 +19,19 @@ The market making simulator built with React. Practice placing limit orders, man
 ### Instruments Tab
 Overview of all 28 instruments with live fair price, best bid/ask, position status (FLAT / LONG / SHORT / RISK), and unrealized P&L per instrument. Click any row to open the order entry popup.
 
+<img width="1887" height="827" alt="Снимок экрана 2026-05-06 170100" src="https://github.com/user-attachments/assets/a17cb960-e44b-479c-b859-9ff913eacd7d" />
+
 ### Order Books Tab
 Live 6-level order book for every instrument. Click any bid/ask level to pre-fill the order form at that price. BUY / SELL buttons at the bottom of each card.
 
+<img width="1879" height="812" alt="Снимок экрана 2026-05-06 170138" src="https://github.com/user-attachments/assets/46dd8b2a-c9c7-4ce9-a9f2-dc3bfe71ac01" />
+
+
 ### Fills Tab
 History of your last 50 filled orders with timestamp, ticker, side, lots, fill price, and notional value.
+
+<img width="1885" height="751" alt="Снимок экрана 2026-05-06 170153" src="https://github.com/user-attachments/assets/7f4e18f6-36ed-463b-b85f-c75371e3f42a" />
+
 
 ### Order Entry Popup
 - Select instrument, side (buy/sell), price, and lot quantity
@@ -35,8 +43,6 @@ History of your last 50 filled orders with timestamp, ticker, side, lots, fill p
 ### P&L & Risk
 - Live total P&L (realized + unrealized) shown in the header
 - Positions exceeding 5 lots are flagged as **RISK** in yellow
-
-![alt text](image.png)
 ---
 
 ## Getting Started
